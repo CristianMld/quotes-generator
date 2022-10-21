@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  box-shadow: 25px 25px 45px rgba(0, 0, 0, 0.6);
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+button {
+  background: lightblue;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;cursor: pointer;
+}
