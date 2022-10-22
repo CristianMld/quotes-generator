@@ -1,4 +1,3 @@
-
 const Button = ({setIndex, quotesLength, color}) => {
   const change = () => {
     const secondRandom = Math.floor(Math.random() * quotesLength);
@@ -11,5 +10,4 @@ const Button = ({setIndex, quotesLength, color}) => {
     </div>
   );
 };
-
 export default Button;

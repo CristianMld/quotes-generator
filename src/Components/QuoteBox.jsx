@@ -1,8 +1,6 @@
 import Button from "./Button";
 
 const QuoteBox = ({quote, author, setIndex, quotesLength, color}) => {
-  
-
   return (
     <div className="card">
       <h3><i className="fa-sharp fa-solid fa-quote-left"></i> {quote} {" "} 
@@ -16,5 +14,4 @@ const QuoteBox = ({quote, author, setIndex, quotesLength, color}) => {
     </div>
   );
 };
-
 export default QuoteBox;
